@@ -1,0 +1,139 @@
+    
+/*头部*/
+.app-about .top{height: 50px;width: 100%;}
+.app-about .top .back{
+    position: relative;
+    z-index: 999;
+    height: 35px;float: left;width: 10%;
+    padding-top: 10px;
+    margin-left: 5%;
+     border-right: 1px solid #CECECE;}
+.app-about .top .back img{width: 40%;height: 80%;}
+.app-about .top .titles{width:67%;float: left;text-align: center;padding-top: 5px}
+.app-about .top .titles img{width: 30%;}
+.app-about .top .share{
+    float:left;
+     height: 45px!important;
+    right: 0px;
+    width: 17.4%!important;
+    border-left: 1px solid #CECECE;
+    padding:0px;
+    }
+.app-about .top .share img{width: 100%!important; height: 40%!important;margin-bottom: 10px;}
+.app-about .el-collapse-item__wrap{z-index: 10;position:absolute;}
+.app-about .el-col-12{width: 100%!important;height:100%}
+.app-about .el-row{z-index: 10;height: 100%}
+.app-about .el-submenu__title i{display: none!important;}
+.app-about .el-submenu__title{height: 3rem!important;}
+.app-about .el-submenu {font-size: 0.5rem;}
+.app-about .el-menu{height: 100%;}
+
+/* 底部 */
+.app-about .foot-nav{
+    height: 7vh;
+    background: #f3f3f3;padding: 10px 0px;
+}
+.app-about .foot-nav span{
+    display: block!important;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+}
+.app-about .foot-nav span img{display:block!important;padding-left:47%;}
+
+.app-about .goods-btns{text-align: center}
+.app-about .goods-btns img{width: 40%}
+
+.app-about .btns{padding: 7px 0px;text-align: center}
+.wrapper.app-about  .bg{
+    background: url('../assets/about/bg11.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 5rem;
+}
+.wrapper.app-about  .wrapper-about-our{
+    width: 100%;
+    height:66rem;
+    margin: auto;
+}
+.app-about .about{
+    margin-top: 0!important;
+}
+.app-about .about .about-title{padding-top: 0!important;}
+.app-about .wrapper-about-our .about-path{
+    padding: 10px 0;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+.app-about .wrapper-about-our .about-path .side{
+    width: 10px;
+    height: 2vh;
+    background: #ef8c26;
+}
+.app-about .wrapper-about-our .about-path .path-desc{
+    font-size: 14px;
+    margin-left: 7px
+}
+.wrapper.app-about  .wrapper-about-our .about{
+    width: 100%;
+    height: 125vh;
+    text-align: center;
+    padding: 0;
+}
+.wrapper.app-about  .title .title-name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.wrapper.app-about  .title .line{
+    width: 4vw;
+    height: 4px;
+    background: #ef8c26;
+    margin: 10px auto;
+}
+.wrapper.app-about  .title .title-desc{
+    color: #888;
+    font-size: 14px
+}
+.wrapper.app-about  .wrapper-about-our .about-bot-content{
+    /* display: flex; */
+    justify-content: space-between;
+    margin-top: 2vh;
+    height: 45rem;
+    position: relative;
+}
+.wrapper.app-about  .wrapper-about-our .about-bot-content .content-text{
+    width: 96%;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #888;
+    padding:0 2%;
+    height: 43rem;
+}
+.app-about .wrapper-about-our .about-bot-content .content-text .about-text:nth-of-type(1){
+    display: inline;
+    text-indent: 3em;
+    line-height: 24px
+}
+.app-about .wrapper-about-our .about-bot-content .content-text .about-text{
+    margin-top: 3vh;
+    line-height: 24px
+}
+.app-about .wrapper-about-our .content-img img{
+    width: 100%;
+    height: 100%;
+}
+.app-about .wrapper-about-our .content-img{
+    width: 75%;
+    height: 14rem;
+    margin: 1.8rem auto;
+    position: relative;
+}
+.case-box{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+    

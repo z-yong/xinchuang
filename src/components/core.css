@@ -1,0 +1,216 @@
+.wrapper .major{
+    background: url('../assets/core/major.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.wrapper .hexinBox{
+    width: 60%;
+    margin: auto;
+}
+.wrapper .hexin1{
+    background: url('../assets/core/newbg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    margin-top: 30px;
+}
+.wrapper .hexin .hexin-title .serial{
+    display: inline-block;
+    width: 4.2vw;
+    height: 11vh;
+    background: #ef8c26;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    line-height: 11vh;
+    font-size: 40px
+}
+.wrapper .hexin .hexin-title .title-desc{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 20px;
+    color: #111
+}
+.wrapper .hexin .content{
+    width: 90%;
+    margin:  30px auto
+}
+.wrapper .hexin .content .content-items{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .hexin .content .content-items .content-item .item-title{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.wrapper .hexin .content .content-items .content-item .item-title span{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600
+}
+.wrapper .hexin .content .content-items .content-item ul li{
+    color: #666;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.wrapper .hexin2{
+    position: relative;
+    background: url('../assets/core/newbg2.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 25px
+}
+.wrapper .hexin.hexin2 .hexin-title .serial,
+.wrapper .hexin.hexin4 .hexin-title .serial{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wrapper .hexin.hexin2 .hexin-title .title-desc,
+.wrapper .hexin.hexin4 .hexin-title .title-desc{
+    position: absolute;
+    top: 6vh;
+    right: 8vw;
+}
+.wrapper .hexin.hexin2 .content{
+    padding-top: 18vh
+}
+.wrapper .hexin3{
+    background: url('../assets/core/newbg3.png') no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 70vh;
+    box-shadow: 0px 3px 8px #ddd;
+    margin-top: 25px
+}
+.wrapper .hexin.hexin3 .content{
+    width: 55%;
+    height: 70%;
+    margin: 20px 40px;
+}
+.wrapper .hexin.hexin3 .content .content-items{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 100%;
+}
+.wrapper .hexin.hexin3 .content .content-items .content-item{
+    width: 49%;
+}
+.wrapper .hexin.hexin3 .content .content-items .content-item:nth-child(1){
+    text-indent: 3vw
+}
+.wrapper .hexin.hexin3 .content .content-items .content-item:nth-child(2){
+    text-indent: 2vw
+}
+.wrapper .hexin.hexin3 .content .content-items .content-item:nth-last-child(1){
+    text-indent: -2vw;
+}
+.wrapper .hexin4{
+    position: relative;
+    background: url('../assets/core/newbg4.png') no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 25px;
+    box-shadow: 0px 3px 8px #ddd
+}
+.hexin4 .hexin4-content{
+    padding-top: 14vh;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .hexin4 .text{
+    width: 75%;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-right: 1vw;
+    color: #666
+}
+.wrapper .hexin4 .text p{
+    height: 3vh;
+    line-height: 3vh
+}
+.wrapper .hexin4 .text p:nth-child(2){
+    text-indent: 1em
+}
+.wrapper .hexin4 .text p:nth-child(3){
+    text-indent: 2em
+}
+.wrapper .hexin4 .text p:nth-child(4){
+    text-indent: 3em
+}
+.wrapper .hexin4 .text p:nth-child(5){
+    text-indent: 4em
+}
+.wrapper .hexin4 .text p:nth-child(6){
+    text-indent: 5em
+}
+.wrapper .hexin4 .text p:nth-child(7){
+    text-indent: 6em
+}
+.wrapper .hexin4 .text p:nth-child(8){
+    text-indent: 7em
+}
+.wrapper .hexin4 .text p:nth-child(9){
+    text-indent: 8em
+}
+.wrapper .hexin4 .text p:nth-child(10){
+    text-indent: 9em
+}
+.wrapper .hexin4 .text p:nth-child(11){
+    text-indent: 10em
+}
+.wrapper .hexin4 .text p:nth-child(12){
+    text-indent: 11em
+}
+.wrapper .hexin4 .text p:nth-child(13){
+    text-indent: 12em
+}
+.wrapper .hexin4 .text p:nth-child(14){
+    text-indent: 13em
+}
+.wrapper .hexin4 .text p:nth-child(15){
+    text-indent: 14em
+}
+.wrapper .hexin4::before,
+.wrapper .hexin4::after{
+    display: block;
+    content: ''
+}
+.wrapper .hexin4::after{
+    clear: both
+}
+.wrapper .hexin5{
+    background: url('../assets/core/newbg5.png') no-repeat;
+    /* background-position: center; */
+    /* padding: 80px 0; */
+    background-size: cover;
+    height: 61vh;
+    margin: 25px 0 60px;
+    box-shadow: 0px 3px 8px #ddd; 
+}
+.hexin5 .text-box{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .hexin5 .text{
+    width: 75%;
+    font-size: 0.8rem;
+    margin: 3vh 0 0 2vw;
+    color: #666;
+}
+.wrapper .hexin5 .text p{
+    height: 3vh;
+    line-height: 3vh;
+}
+.wrapper .goods-box{
+    width: 100%;
+    border-top: 2px solid #ef8c26;
+    padding-top: 45px;
+}

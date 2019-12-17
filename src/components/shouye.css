@@ -1,0 +1,204 @@
+.wrapper .el-carousel__item img{
+    width: 100%;
+    height: auto;
+}
+.tubiao-box{
+    height: 8vh;
+    width: 100%;
+    background: #ef8c26;
+}
+.tubiao-box .tubiao-list{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px
+}
+.tubiao-list li{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tubiao-list li .arrows{
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translate(-50%,0%)
+}
+.tubiao-list li .tubiao{
+    height: 40%;
+    width: auto;
+    margin-top: 5px;
+}
+.tubiao-list li:hover,
+.tubiao-list li.menu-active{
+    background: #fff;
+    color: #ef8c26;
+    border: 2px solid #be2d00;
+    box-sizing: border-box
+}
+.tubiao-list .tubiao-text{
+    font-size: 14px;
+}
+.goodsbox{
+    width: 100%;
+    padding: 30px 0 50px;
+    background: #fff;
+}
+.goods-btn,.btn{
+    width: 100px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #888;
+    margin: 20px auto 0; 
+    cursor: pointer;
+    user-select: none;
+}
+.dongtai .dontaiMess ul li{
+    display: flex;
+    margin-bottom: 20px
+}
+.dongtai .dontaiMess ul li .mess-time{
+    font-size: 35px
+}
+.dongtai .dontaiMess ul li .mess-right{
+    margin-left: 20px
+}
+.dongtai .dontaiMess ul li .mess-right .mess-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #444;
+    margin: 3px 0 7px
+}
+.dongtai .dontaiMess ul li .mess-right .mess-content{
+    color: #888;
+}
+.wrapper .youshi{
+    background: url('../assets/shouye/youshi.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    box-sizing: border-box;
+    padding-bottom: 25vh
+}
+.youshi .youshi-content{
+    width: 60%;
+    margin: auto
+}
+.youshi .youshi-content .youshi-title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15vh;
+    margin-bottom: 5vh
+}
+.hezuo{
+    background: url('../assets/shouye/hezuo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 10vh;
+    text-align: center;
+}
+.hezuo .hezuo-title{
+    padding-top: 8vh;
+    text-align: center;
+}
+.hezuo .hezuo-title p{
+    font-size: 35px;
+    font-weight: 600;
+}
+.wrapper>.about{
+    background: url('../assets/shouye/about.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.about .about-box{
+    width: 60%;
+    margin: auto
+}
+.about .about-title{
+    padding-top: 10vh;
+    text-align: center;
+}
+.about .about-title .title{
+    font-size: 35px;
+    font-weight: 600
+}
+.about .about-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh
+}
+.about-content .content-left{
+    width: 50%;
+    position: relative;
+}
+.about-content .content-left .left-title{
+    color: #666;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 5vh
+}
+.about-content .content-left .about-mess{
+    margin: 20px 0;
+    color: #888;
+    font-size: 14px
+}
+.about-content .content-left .btn{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.dongtai{
+    background: url('../assets/shouye/dynamic.png') no-repeat;
+}
+.guanyu{
+    background-size: contain;
+    background-position: 50%;
+    height: 80vh;
+    margin: 60px 0 120px;
+}
+.dongtai{
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    height: 140vh;
+}
+.dongtai .dontaiMess{
+    position: absolute;
+    top: 57vh;
+    right: 20vw;
+    width: 30%;
+}
+
+.hezuo{
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+ .el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 300px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
